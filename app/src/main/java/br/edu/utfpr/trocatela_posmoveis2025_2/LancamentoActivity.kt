@@ -45,7 +45,7 @@ class LancamentoActivity : AppCompatActivity() {
 
     fun btListarOnClick(view: View) {
         val intent = Intent( this, ListarActivity::class.java )
-        //getResult.launch( intent )
+        getResult.launch( intent )
     }
 
     private val getResult = registerForActivityResult(
